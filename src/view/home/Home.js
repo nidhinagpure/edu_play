@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import Navbarr from './../../component/navbar/Navbarr'; // ✅ This import must be at the top
+import Headersection from './../../component/headersection/Headersection';
 
 // Global style
 const GlobalStyle = createGlobalStyle`
@@ -17,7 +18,7 @@ function Home() {
       <GlobalStyle />
       <Navbarr />
       <div>
-        {/* Your Home content here */}
+         <Headersection/>
       </div>
     </>
   );
