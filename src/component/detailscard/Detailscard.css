@@ -1,0 +1,81 @@
+
+.cards-maping{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 20px 10px 20px;
+  box-sizing: border-box;
+}
+
+.fixed-box {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(245, 242, 242);
+  box-shadow: 2px 2px 2px 2px  rgb(215, 214, 214);
+  border: 1px solid gray;
+  border-radius: 6px;
+  border: none;
+  overflow: hidden;  /* or scroll */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.choose-content{
+    display: flex;
+    align-items: center;
+
+}
+.choose-title{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 12px;
+}
+.choose-image{
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgb(252, 248, 242);
+    box-shadow: 0 2px 2px 2px  rgb(215, 214, 214);
+}
+.choose-lines{
+    color: black;
+}
+
+/* Small screens: max 600px */
+@media (max-width: 600px) {
+  .fixed-box {
+    width: 90%; /* full width on small screens */
+    height: auto;
+  }
+}
+
+
+/* Medium screens: 601px to 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+  .fixed-box {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Tablets: 769px to 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .fixed-box {
+    width: 45%;
+    height: auto;
+  }
+  
+}
+
+/* Desktops: above 992px */
+@media (min-width: 993px) {
+  .fixed-box {
+    width: 400px; /* original size */
+    height: 200px;
+  }
+}
+

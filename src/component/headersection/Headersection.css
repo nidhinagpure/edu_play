@@ -14,8 +14,8 @@
 }
 .header-call{
 flex: 1;
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
   gap: 20px;
 
 }
@@ -121,15 +121,12 @@ flex: 1;
     width: 84%;
     margin: 50px auto;
     display: flex;
-    background-color: white; 
     justify-content: space-evenly;
     text-align: center;
     font-size: 22px;
     padding: 26px 0 26px 0;
-    background-color: #f2f2f2;
     box-shadow: 1px 2px 10px gray;
-
-
+    background-color: rgb(249, 247, 247);
 }
 .info-image{
     height: 50px;
@@ -137,13 +134,13 @@ flex: 1;
 }
 .info-about{
     font-size: 18px;
-    color: #948979;
-    font-weight: 400; 
+    font-weight: 400;
+    color: black; 
 }
 .info-num{
   font-size: 24px;
-  color: #948979;
   font-weight: bold;
+  color: black;
 }
 .choose-us{
     text-align: center;
@@ -161,4 +158,122 @@ flex: 1;
     text-decoration: underline wavy black 2px;
     background-color: rgb(250, 250, 116);
  }
+
+
+ /* Default styles (for large screens and general layout) */
+/* --- Your existing styles are here --- */
+
+
+
+/* ===== MOBILE: max 600px ===== */
+@media screen and (max-width: 600px) {
+  .herader-div {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+    width: 94%;
+  }
+
+  .header-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header-left,
+  .header-right {
+    max-width: 100%;
+  }
+
+  .header-left h2,
+  .header-stud,
+  .highlight {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .subtext {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .header-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .btn {
+    width: 80%;
+    text-align: center;
+  }
+
+  .info-div {
+    flex-direction: column;
+    width: 90%;
+    font-size: 18px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .chooseus,
+  .rtc {
+    font-size: 24px;
+  }
+}
+
+/* ===== TABLET: 601px to 768px ===== */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .header-left,
+  .header-right {
+    max-width: 100%;
+  }
+
+  .info-div {
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .header-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn {
+    padding: 10px 24px;
+  }
+}
+
+/* ===== LAPTOP: 769px to 992px ===== */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .header-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+
+  .header-left,
+  .header-right {
+    max-width: 48%;
+  }
+
+  .info-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .btn {
+    padding: 12px 28px;
+  }
+}
 
