@@ -1,4 +1,6 @@
 import './../headersection/Headersection.css';
+import './../button/button.css'
+
 import practical from './../../images/headersection/practice.webp';
 import trophy from './../../images/headersection/trophy.webp';
 import video  from './../../images/headersection/video-lesson.png'; 

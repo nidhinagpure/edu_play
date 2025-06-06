@@ -6,12 +6,11 @@ import Recorded from './../../images/detailcard/recording.png';
 import Doubt from './../../images/detailcard/doudt.png';
 import Language from './../../images/detailcard/language.png';
 import Notes from './../../images/detailcard/notes.png';
-import Feedback from './../../images/detailcard/feedback.png';
 import Group from './../../images/detailcard/group.png';
-import Resume from './../../images/detailcard/resume.png';
 import Interviews from './../../images/detailcard/interview.png';
 import Network from './../../images/detailcard/network.png';
-import Code from './../../images/detailcard/code.png';
+
+import Interslider from './../../component/intership/Intership';
 
 
 const CARDS = [
@@ -46,19 +45,9 @@ const CARDS = [
     information: "Get lifetime access of the notes that you can refer anytime in the future. High-quality notes prepared by the instructor. No need to buy any books.",
   },
   {
-    imageUrl: Feedback,
-    title: "Assignments & Feedback",
-    information: "Weekly 4-5 assignments and feedback from the instructor to keep you on track.",
-  },
-  {
     imageUrl: Group,
     title: "Group Projects",
     information: "Work on real-world projects in a group to get the feel of working in a team.",
-  },
-  {
-    imageUrl: Resume,
-    title: 'Resume Building',
-    information: "We help you to build a professional resume that stands out from the crowd.",
   },
   {
     imageUrl: Interviews,
@@ -69,11 +58,6 @@ const CARDS = [
     imageUrl: Network,
     title: "Professional Network",
     information: "Unlock opportunities by learning correct way of using Peerlist and LinkedIn for hunting jobs and internships.",
-  },
-  {
-    imageUrl: Code,
-    title: "Practic, Learn, Grow",
-    information: "Practice each day with dedication,Let your effort shape your journey,Become better than you were yesterday.",
   },
 ]
 function Choosecard({ imageUrl, title, information }) {
@@ -107,6 +91,13 @@ export function Choosecards() {
           }
         </div>
       </div>
+       <div className='choose-us'>
+                <span className="ineter-achiev">Internship Achievers</span><br></br><br></br>
+                <span className="inter-ship">Students who got an internship after learning from us!!!</span>
+    </div>
+    <div>
+        <Interslider/>
+    </div>
     </>
 
   );

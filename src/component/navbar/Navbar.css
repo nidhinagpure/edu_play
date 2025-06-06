@@ -7,11 +7,10 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: relative;
 }
 .navbar-heads {
     text-decoration: none;
-    margin-right: 60px;
+    margin-right: 46px;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;

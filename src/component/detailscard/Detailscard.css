@@ -44,6 +44,19 @@
 .choose-lines{
     color: black;
 }
+.choose-us{
+    margin-top: 40px;
+}
+.ineter-achiev{
+    font-size: 36px;
+    color: black;
+    text-decoration: underline wavy green;
+    background-color: rgb(172, 244, 172);
+}
+.inter-ship{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
 
 /* Small screens: max 600px */
 @media (max-width: 600px) {

@@ -1,0 +1,150 @@
+/*.footer-container{
+     justify-content: space-between;
+     background-color: rgba(38, 65, 52, 1);
+     color: white;
+     display: flex;
+     margin-top: 100px;
+    
+     width: 100%;
+}
+.footer-content{
+
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+  border-bottom: 1px solid #2f4f4f;
+  padding-bottom: 40px;
+}
+.footer-info{
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    align-items: center;
+    gap: 10px;
+}
+.footer-paragraph{
+    display: block;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+.footer-icon{
+}
+.footer-social{
+    display: flex;
+    margin: 10px;
+    margin-left: 40px;
+}
+.footer-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.Footer-routes{
+    margin-right: 200px;
+}
+.footer-contact{
+    margin-left: 100px;
+}
+.footer-icon{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    border-radius: 6px;
+}*/
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    gap: 40px;
+    border-bottom: 1px solid #2f4f4f;
+}
+
+.footer-logo {
+    max-width: 300px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    gap: 10px;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.Footer-routes p,
+.footer-contact div,
+.footer-learn p {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.Footer-routes a,
+.footer-contact a,
+.footer-learn a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Footer-routes a:hover,
+.footer-contact a:hover,
+.footer-learn a:hover {
+    color: #948979;
+}
+
+.footer-contact {
+    max-width: 250px;
+}
+
+.footer-contact span.footer-contact {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.footer-learn {
+    max-width: 250px;
+}
