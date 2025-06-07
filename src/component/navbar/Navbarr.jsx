@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './../../component/navbar/Navbar.css';
 import logo from './../../images/logo.png';
+import toast from 'react-hot-toast';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -36,7 +38,7 @@ export default function Navbarr() {
                 </Link>
                 <Link to="/colleges" className="link-nav">
                     <span className="navbar-link">
-                        <FontAwesomeIcon icon={faBook} className="navbar-icon" /> Colleges
+                        <FontAwesomeIcon icon={faBook} className="navbar-icon" /> College
                     </span>
                 </Link>
                 <Link to="/notes" className="link-nav">

@@ -1,0 +1,75 @@
+
+.college-card {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 10px;
+  background-color: rgb(249, 247, 247);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  width: 100%;
+  max-width: 420px;
+}
+.college-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.college-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.logo-college {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  padding: 4px;
+}
+
+.college-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  flex: 1;
+}
+
+.college-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #374151;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 8px;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+  margin-top: 10px;
+  color: #1e40af;
+}
+.search-name{
+    display: flex;
+    margin: 40px auto;
+    border-radius: 50px;
+    font-size: 22px;
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px 2px 10px 24px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+.search-colleges{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import Navbarr from './../../component/navbar/Navbarr'; // ✅ This import must be at the top
 import Headersection from './../../component/headersection/Headersection';
-import {Choosecards} from './../../component/detailscard/Detailscard';
+import { Choosecards } from './../../component/detailscard/Detailscard';
 import Coursescards from './../../component/coursescard/Coursescard';
 import Footer from './../../component/footer/Footer';
 
@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     overflow-x: hidden;
+    overflow-x: hidden;
     background-color: #F2F2F2;
   }
 `;
@@ -22,16 +22,16 @@ function Home() {
       <GlobalStyle />
       <Navbarr />
       <div>
-         <Headersection/>
+        <Headersection />
       </div>
       <div className="detailcard">
-        <Choosecards/>
+        <Choosecards />
       </div>
       <div>
-        <Coursescards/>
+        <Coursescards />
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

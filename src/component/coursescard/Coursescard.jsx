@@ -3,9 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
 import './../../component/coursescard/Coursescard.css';
-import './../../component/button/button.css'
-
-
+import './../../component/button/button.css';
 
 import Aws from './../../images/coursescard/aws.png';
 import Internship from './../../images/coursescard/fullstack.png';
@@ -14,8 +12,6 @@ import Python from './../../images/coursescard/python.jpg';
 import teacher1 from './../../images/intership/stud1.jpg';
 import  teacher2 from './../../images/intership/stud2.jpg';
 import  teacher3 from './../../images/intership/stud4.jpg';
-
-
 
 const COURSES = [
     {
@@ -55,8 +51,6 @@ const COURSES = [
         courseprice: "₹ 999/-",
     },
 ]
-
-
 
 function Courses(props) {
     const { id, slug, courseimage,
@@ -117,8 +111,6 @@ function Knowmorebtn({ id, slug }) {
         </div>
     )
 }
-
-
 export default function Coursescards() {
     return (
         <>
@@ -141,12 +133,8 @@ export default function Coursescards() {
                         )
                     }
                     )}
-
                 </div>
-
             </div>
-
         </>
-
     );
 }

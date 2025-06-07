@@ -1,4 +1,5 @@
 import { href, Link } from 'react-router-dom';
+import { createGlobalStyle } from 'styled-components';
 
 import './../../component/footer/Footer.css';
 
@@ -11,6 +12,14 @@ import twitter from './../../images/footer/twitter.png';
 import mail from './../../images/footer/mail.png';
 import location from './../../images/footer/location.png';
 import contact from './../../images/footer/call.png';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+   margin: 0;
+  padding: 0;
+  height: 100%;
+  }
+`;
 
 const Footer = () => {
     const socialMediaLink = [
@@ -75,7 +84,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="footer-container">
+        <footer className="footer-container page-wrapper">
             <div className="footer-content">
 
                 <div className="footer-logo">
