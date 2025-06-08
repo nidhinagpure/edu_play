@@ -7,7 +7,7 @@
 .header-nav {
   background-color: #090909;
   color:white;
-  padding: 14px 70px;
+  padding: 14px 100px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -24,11 +24,11 @@
     text-decoration: none;
 }
 
-.logo-title {
+.link {
   font-size: 22px;
   color: white;
   font-weight: bold;
-  margin-left: 10px;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -81,13 +81,33 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.pop-msg {
+  position: fixed;
+  top: 80%;
+  right: 50px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeInOut 3s ease-in-out;
+  font-weight: bold;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
 
 /* Icon */
 .icon-sun {
   color: white;
   font-size: 22px;
   cursor: pointer;
-  margin-left: 450px;
+  margin-left: 300px;
 }
 
 /* ======================== */
