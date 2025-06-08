@@ -1,5 +1,14 @@
 /* Navbar container */
 .navbar {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed; /* or use position: absolute if needed */
+  background-color: #5f9ea0; /* or your desired color */
+  height: 70px; /* adjust as needed */
+  z-index: 1000;
   background-color: #000;
   color: white;
   padding: 10px 20px;

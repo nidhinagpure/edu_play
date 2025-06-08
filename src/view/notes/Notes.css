@@ -1,0 +1,49 @@
+.space-ship{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.space-para{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 8px;
+}
+.subject-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+  cursor: pointer;
+}
+.subject-item:hover{
+    box-shadow: 2px 2px 14px 0.1px rgb(162, 162, 162);
+    transition: 1s;
+}
+.subject-item{
+    background-color: rgb(249, 247, 247);
+    border: 1px solid rgb(222, 219, 219);
+    gap:80px;
+    height: 200px;
+    width: 260px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+
+}
+
+.icon-notes{
+    height: 120px;
+    width: 120px;
+    padding-top: 6px;
+    display: flex;
+    margin: 10px auto;
+}
+.subname{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -56,6 +56,9 @@
   margin-top: 10px;
   color: #1e40af;
 }
+.search-container{
+  margin-top: 7%;
+}
 .search-name{
     display: flex;
     margin: 40px auto;

@@ -29,7 +29,7 @@ export default function Navbarr() {
         ☰
       </button>
 
-      <di className={`nav-links ${menuOpen ? 'active' : ''}`}>
+      <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
        <div className="navbar-heads">
                 <Link to="/Home" className="link-nav">
                     <span className="navbar-link">
@@ -57,7 +57,7 @@ export default function Navbarr() {
                     </span>
                 </Link>
             </div>
-      </di>
+      </div>
     </nav>
   );
 }

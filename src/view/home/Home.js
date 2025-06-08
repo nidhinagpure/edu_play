@@ -1,10 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
-import Navbarr from './../../component/navbar/Navbarr'; // ✅ This import must be at the top
+import Navbarr from './../../component/navbar/Navbarr';
 import Headersection from './../../component/headersection/Headersection';
 import { Choosecards } from './../../component/detailscard/Detailscard';
 import Coursescards from './../../component/coursescard/Coursescard';
 import Footer from './../../component/footer/Footer';
-
 // Global style
 const GlobalStyle = createGlobalStyle`
   body {
@@ -31,7 +30,7 @@ function Home() {
         <Coursescards />
       </div>
       <div>
-        <Footer />
+        <Footer/>
       </div>
     </>
   );

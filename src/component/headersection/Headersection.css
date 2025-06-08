@@ -1,65 +1,73 @@
-.herader-div{
-    height: 50px;
-    width: 88%;
-    display: flex;
-    align-items: center;
-    padding: 10px 6px;
-    margin-top: 14px;
-    border-radius: 4px;
-    background-color: rgb(249, 247, 247);
-    box-shadow: 1px 2px 10px gray;
-    display: flex;
-    justify-content: space-evenly;
-    
+.herader-div {
+  height: 50px;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  padding: 37px 6px;
+  margin-top: 14px;
+  border-radius: 4px;
+  background-color: rgb(249, 247, 247);
+  box-shadow: 1px 2px 10px gray;
+  display: flex;
+  justify-content: space-evenly;
+
 }
-.header-call{
-flex: 1;
-display: flex;
-flex-direction: column;
+
+.header-call {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 
 }
-.header-info-div{
-    margin-left: 18px;
-    display: block;
-    align-items: center;
+
+.header-info-div {
+  margin-left: 18px;
+  display: block;
+  align-items: center;
 }
-.header-title{
-    font-size: 22px;
-    letter-spacing: 1.2px;
-    word-spacing: 1px;
+
+.header-title {
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
 }
-.header-info{
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    word-spacing: 1px;
+
+.header-info {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
 }
-.header-img{
-    height: 50px;
-    width: 50px;
-    padding-left: 18px;
-    padding-top: 2px;
-    transition: transform 0.5s
+
+.header-img {
+  height: 50px;
+  width: 50px;
+  padding-left: 18px;
+  padding-top: 2px;
+  transition: transform 0.5s
 }
-.header-img:hover{
-    transform: translateY(-6px);
+
+.header-img:hover {
+  transform: translateY(-6px);
 }
 
 .header-wrapper {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 60px 40px 40px 120px;
+  padding: 130px 40px 40px 120px;
 }
 
 .header-left {
   flex: 1;
   max-width: 49%;
 }
-.header-stud{
-    font-size: 38px;
-    margin-top: 2px;
+
+.header-stud {
+  font-size: 38px;
+  margin-top: 2px;
 }
+
 .header-left h2 {
   font-size: 36px;
   font-weight: bold;
@@ -80,15 +88,14 @@ flex-direction: column;
 }
 
 .header-buttons {
-    margin-top: 40px;
+  margin-top: 40px;
   display: flex;
   gap: 20px;
 }
 
 .btn {
   border: none;
-     padding: 10px 30px 10px 32px;
-
+  padding: 10px 30px 10px 32px;
   border-radius: 24px;
   font-weight: bold;
   cursor: pointer;
@@ -113,54 +120,61 @@ flex-direction: column;
   gap: 20px;
 }
 
-.hero-div{
-    display: flex;
+.hero-div {
+  display: flex;
 
 }
-.info-div{
-    width: 84%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    font-size: 22px;
-    padding: 26px 0 26px 0;
-    box-shadow: 1px 2px 10px gray;
-    background-color: rgb(249, 247, 247);
+
+.info-div {
+  width: 84%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 22px;
+  padding: 26px 0 26px 0;
+  box-shadow: 1px 2px 10px gray;
+  background-color: rgb(249, 247, 247);
 }
-.info-image{
-    height: 50px;
-    width: 50px;
+
+.info-image {
+  height: 50px;
+  width: 50px;
 }
-.info-about{
-    font-size: 18px;
-    font-weight: 400;
-    color: black; 
+
+.info-about {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
 }
-.info-num{
+
+.info-num {
   font-size: 24px;
   font-weight: bold;
   color: black;
 }
-.choose-us{
-    text-align: center;
-    padding-top: 10px;
+
+.choose-us {
+  text-align: center;
+  padding-top: 10px;
 }
-.chooseus{
-    font-size: 36px;
-    color: #948979;
-    margin-right: 12px;
+
+.chooseus {
+  font-size: 36px;
+  color: #948979;
+  margin-right: 12px;
 }
-.rtc{
-    color: black;
-    font-size: 36px;
-    margin-left: 4px;
-    text-decoration: underline wavy black 2px;
-    background-color: rgb(250, 250, 116);
- }
+
+.rtc {
+  color: black;
+  font-size: 36px;
+  margin-left: 4px;
+  text-decoration: underline wavy black 2px;
+  background-color: rgb(250, 250, 116);
+}
 
 
- /* Default styles (for large screens and general layout) */
+/* Default styles (for large screens and general layout) */
 /* --- Your existing styles are here --- */
 
 
@@ -276,4 +290,3 @@ flex-direction: column;
     padding: 12px 28px;
   }
 }
-

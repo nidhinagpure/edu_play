@@ -15,7 +15,7 @@ import contact from './../../images/footer/call.png';
 
 const GlobalStyle = createGlobalStyle`
   body {
-   margin: 0;
+  margin: 0;
   padding: 0;
   height: 100%;
   }
