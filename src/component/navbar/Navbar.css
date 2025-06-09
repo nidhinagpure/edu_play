@@ -7,11 +7,11 @@
   right: 0;
   position: fixed; /* or use position: absolute if needed */
   background-color: #5f9ea0; /* or your desired color */
-  height: 70px; /* adjust as needed */
+  height: 58px; /* adjust as needed */
   z-index: 1000;
   background-color: #000;
   color: white;
-  padding: 10px 20px;
+  padding: 6px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;

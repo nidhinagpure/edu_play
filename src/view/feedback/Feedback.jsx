@@ -1,8 +1,16 @@
-// src/view/feedback/Feedback.js
-import React from 'react';
+
+import Review from './../../component/Review/Review';
+import './../../view/feedback/Feedback.css';
 
 function Feedback() {
-  return <h1>Feedback Page</h1>;
+  return (
+    <>
+      <div>
+        <Review />
+
+      </div>
+    </>
+  )
 }
 
 export default Feedback;

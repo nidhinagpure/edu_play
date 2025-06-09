@@ -1,0 +1,79 @@
+.review-container{
+    display: flex;
+    justify-content: space-between;
+        background-color: #F2F2F2;
+
+}
+.review-img{
+    width: 800px; 
+
+}
+.input-container{
+    background-color: white;
+    height: 510px;
+    width: 380px;
+    margin-top: 140px;
+    margin-right: 150px;
+}
+.input {
+    padding: 8px 27px 8px 6px;
+    margin-top: 20px;
+    display: flex;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    outline: none;
+        background-color: rgb(235, 234, 234);
+
+}
+.sent-feed{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.logo{
+    height: 90px;
+    width: 150px;
+    display: flex;
+    margin: 6px auto;
+    align-items: center;
+}
+.input-feed{
+    padding: 6px 0 68px 6px;
+    font-size: 20px;
+    margin: 10px 60px;
+     border: none;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: rgb(235, 234, 234);
+}
+.review-btn{
+    display: flex;
+    margin: 22px auto;
+}
+.review-btn{
+    padding: 6px 22px 6px 22px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.link-line{
+    text-decoration: none;
+    padding-top: 20px;
+}
+.user-feed{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    margin-left: 110px;
+    word-spacing: 1px;
+}
+.user-feed:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

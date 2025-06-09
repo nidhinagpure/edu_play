@@ -175,7 +175,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: #F2F2F2;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     font-family: Arial, sans-serif;
   }
 `;
